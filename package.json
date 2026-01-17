@@ -1,0 +1,21 @@
+{
+  "name": "lms-backend",
+  "version": "1.0.0",
+  "description": "Simple Learning Management System Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "lms",
+    "backend",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "courses": [
+    {
+      "id": "course1",
+      "title": "React Basics",
+      "lessons": [
+        {
+          "lessonId": "l1",
+          "title": "Introduction to React",
+          "quiz": [
+            {
+              "question": "What is React?",
+              "options": [
+                "A database",
+                "A JavaScript library",
+                "An operating system",
+                "A programming language"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "What is JSX?",
+              "options": [
+                "JavaScript XML",
+                "Java Syntax Extension",
+                "JSON Extra",
+                "JavaScript Extra"
+              ],
+              "correctAnswer": 0
+            }
+          ]
+        },
+        {
+          "lessonId": "l2",
+          "title": "Components and Props",
+          "quiz": [
+            {
+              "question": "What are React components?",
+              "options": [
+                "CSS styles",
+                "Reusable UI pieces",
+                "Database tables",
+                "API endpoints"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "lessonId": "l3",
+          "title": "State and Lifecycle",
+          "quiz": [
+            {
+              "question": "What hook is used for state in functional components?",
+              "options": [
+                "useEffect",
+                "useState",
+                "useRef",
+                "useContext"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "lessonId": "l4",
+          "title": "React Hooks Deep Dive",
+          "quiz": [
+            {
+              "question": "What hook is used for side effects?",
+              "options": [
+                "useState",
+                "useEffect",
+                "useRef",
+                "useMemo"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        }
+      ],
+      "progress": {
+        "user123": {
+          "completedLessons": [
+            "l1"
+          ],
+          "score": 2
+        }
+      }
+    },
+    {
+      "id": "course2",
+      "title": "Node.js Basics",
+      "lessons": [
+        {
+          "lessonId": "l1",
+          "title": "What is Node.js?",
+          "quiz": [
+            {
+              "question": "What is Node.js?",
+              "options": [
+                "A browser",
+                "A JavaScript runtime",
+                "A database",
+                "A CSS framework"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        }
+      ],
+      "progress": {
+        "john123": {
+          "completedLessons": [
+            "l1"
+          ],
+          "score": 5
+        },
+        "user123": {
+          "completedLessons": [
+            "l1"
+          ],
+          "score": 4
+        }
+      }
+    }
+  ]
+}
